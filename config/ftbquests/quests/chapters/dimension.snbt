@@ -1,12 +1,12 @@
 {
-	id: "257A77B4C7E7B831"
-	group: "2C7653172BE035E5"
-	order_index: 0
-	filename: "dimension"
-	title: "Dimension"
-	icon: "minecraft:end_portal_frame"
-	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	default_quest_shape: ""
+	filename: "dimension"
+	group: "2C7653172BE035E5"
+	icon: "minecraft:end_portal_frame"
+	id: "257A77B4C7E7B831"
+	order_index: 0
 	quest_links: [ ]
+	quests: [ ]
+	title: "Dimension"
 }

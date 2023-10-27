@@ -46,10 +46,6 @@
     "mob_spawner": true,
     "redstone": true
   },
-  "immersiveengineering": {
-    "hemp": true,
-    "multiblock_icon": true
-  },
   "secretroomsmod": {
     "jadeaddons": true
   },

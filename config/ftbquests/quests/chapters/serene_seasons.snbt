@@ -1,41 +1,41 @@
 {
-	id: "0FC36A47C9106B62"
-	group: ""
-	order_index: 1
-	filename: "serene_seasons"
-	title: "Serene Seasons"
-	icon: "sereneseasons:calendar"
-	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "serene_seasons"
+	group: ""
+	icon: "sereneseasons:calendar"
+	id: "0FC36A47C9106B62"
+	order_index: 1
+	quest_links: [ ]
 	quests: [
 		{
+			id: "15E9F06A70A4AB5B"
+			rewards: [{
+				id: "3996783AC5D8C88C"
+				item: "sereneseasons:calendar"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F1A6B45FF1F79A1"
+				item: "sereneseasons:calendar"
+				type: "item"
+			}]
 			title: "What season are we ?"
 			x: -4.0d
 			y: 0.0d
-			id: "15E9F06A70A4AB5B"
-			tasks: [{
-				id: "7F1A6B45FF1F79A1"
-				type: "item"
-				item: "sereneseasons:calendar"
-			}]
-			rewards: [{
-				id: "3996783AC5D8C88C"
-				type: "item"
-				item: "sereneseasons:calendar"
-			}]
 		}
 		{
-			title: "What is this for ?"
-			x: -1.5d
-			y: 0.0d
 			description: ["What it can be used for, I don't know but hey, it's done."]
 			id: "0DE5CA43103DC375"
 			tasks: [{
 				id: "52ABEE50297C5402"
-				type: "item"
 				item: "sereneseasons:season_sensor"
+				type: "item"
 			}]
+			title: "What is this for ?"
+			x: -1.5d
+			y: 0.0d
 		}
 	]
-	quest_links: [ ]
+	title: "Serene Seasons"
 }

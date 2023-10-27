@@ -13,15 +13,8 @@
 <add> <strainer>strainer_survivalist</strainer> <chance>75</chance> <item>minecraft:sand</item> </add>
 <add> <strainer>strainer_survivalist</strainer> <chance>15</chance> <item>minecraft:red_sand</item> </add>
 <add> <strainer>strainer_survivalist</strainer> <chance>15</chance> <item>biomesoplenty:orange_sand</item> </add>
-//<add> <strainer>strainer_survivalist</strainer> <chance>12</chance> <item>byg:windswept_sand</item> </add>
 <add> <strainer>strainer_survivalist</strainer> <chance>10</chance> <item>biomesoplenty:black_sand</item> </add>
-<add> <strainer>strainer_survivalist</strainer> <chance>10</chance> <item>byg:black_sand</item> </add>
-//<add> <strainer>strainer_survivalist</strainer> <chance>8</chance> <item>byg:cracked_red_sand</item> </add>
 <add> <strainer>strainer_survivalist</strainer> <chance>3</chance> <item>biomesoplenty:whitesand</item> </add>
-//<add> <strainer>strainer_survivalist</strainer> <chance>2</chance> <item>byg:white_sand</item> </add>
-//<add> <strainer>strainer_survivalist</strainer> <chance>2</chance> <item>byg:blue_sand</item> </add>
-//<add> <strainer>strainer_survivalist</strainer> <chance>1</chance> <item>byg:purple_sand</item> </add>
-//<add> <strainer>strainer_survivalist</strainer> <chance>1</chance> <item>byg:end_sand</item> </add>
 <add> <strainer>strainer_survivalist</strainer> <chance>75</chance> <item>minecraft:dirt</item> </add>
 <add> <strainer>strainer_survivalist</strainer> <chance>25</chance> <item>minecraft:coarse_dirt</item> </add>
 <add> <strainer>strainer_survivalist</strainer> <chance>100</chance> <item>minecraft:stick</item> </add>
@@ -46,9 +39,8 @@
 <add> <strainer>strainer_fisherman</strainer> <chance>4</chance> <item>minecraft:glass_bottle</item> </add>
 <add> <strainer>strainer_fisherman</strainer> <chance>2</chance> <item>minecraft:lily_pad</item> </add>
 <add> <strainer>strainer_fisherman</strainer> <chance>2</chance> <item>minecraft:vine</item> </add>
-//<add> <strainer>strainer_fisherman</strainer> <chance>2</chance> <item>byg:peat</item> </add>
 <add> <strainer>strainer_fisherman</strainer> <chance>1</chance> <item>minecraft:enchanted_book</item> </add>
-<add> <strainer>strainer_fisherman</strainer> <chance>67</chance> <item>$BLANK$</item> </add>
+<add> <strainer>strainer_fisherman</strainer> <chance>36</chance> <item>$BLANK$</item> </add>
 
 <copy> <child>strainer_fisherman_solid</child> <parent>strainer_fisherman</parent> </copy>
 <copy> <child>strainer_fisherman_reinforced</child> <parent>strainer_fisherman</parent> </copy>

@@ -16,17 +16,17 @@
 	[houses.weights]
 		#Woodworker house spawn chance
 		#Range: > 0
-		woodworkerHouseWeight = 7
+		woodworkerHouseWeight = 4
 		#Oceanographer house spawn chance
 		#Range: > 0
-		oceanographerHouseWeight = 5
+		oceanographerHouseWeight = 2
 		#Florist house spawn chance
 		#Range: > 0
-		floristHouseWeight = 5
+		floristHouseWeight = 3
 		#Hunter house spawn chance
 		#Range: > 0
-		hunterHouseWeight = 7
+		hunterHouseWeight = 4
 		#Engineer house spawn chance
 		#Range: > 0
-		engineerHouseWeight = 2
+		engineerHouseWeight = 1
 
