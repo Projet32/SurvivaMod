@@ -18,3 +18,4 @@ servers.dat_old
 usercache.json
 usernamecache.json
 options.txt
+.DS_Store
