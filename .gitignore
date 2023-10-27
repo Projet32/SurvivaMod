@@ -19,3 +19,4 @@ usercache.json
 usernamecache.json
 options.txt
 .DS_Store
+instance.json

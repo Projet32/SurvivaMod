@@ -152,6 +152,9 @@
 		#Fluidic Plenisher stops after this many blocks.
 		#Range: 1 ~ 1000000
 		maxPlenisherNodes = 4000
+		#mB of Heavy Water that is extracted per block of Water by the Electric Pump with a Filter Upgrade.
+		#Range: 1 ~ 1000
+		pumpHeavyWaterAmount = 10
 
 	#Quantum Entangloporter Settings
 	[general.quantum_entangloporter]

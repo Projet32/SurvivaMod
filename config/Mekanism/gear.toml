@@ -173,7 +173,7 @@
 		#Cost in Joules of using the Meka-Tool to teleport 10 blocks.
 		energyUsageTeleport = "1000"
 		#Maximum distance a player can teleport with the Meka-Tool.
-		#Range: 2 ~ 1024
+		#Range: 3 ~ 1024
 		maxTeleportReach = 100
 		#Base bonus damage applied by the Meka-Tool without using any energy.
 		#Range: 0 ~ 100000

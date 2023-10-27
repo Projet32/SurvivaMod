@@ -27,15 +27,15 @@
     "entity_health": true,
     "energy_storage": true,
     "entity_armor.max_for_render": 40,
-    "breaking_progress": true,
     "enchantment_power": true,
+    "breaking_progress": true,
     "tnt_stability": true,
     "villager_profession": true,
     "mob_breeding": true,
     "entity_health.icons_per_line": 10,
     "item_frame": true,
-    "fluid.detailed": false,
     "crop_progress": true,
+    "fluid.detailed": false,
     "total_enchantment_power": true,
     "potion_effects": true,
     "command_block": true,
@@ -45,34 +45,6 @@
     "entity_health.max_for_render": 40,
     "mob_spawner": true,
     "redstone": true
-  },
-  "secretroomsmod": {
-    "jadeaddons": true
-  },
-  "jade": {
-    "coordinates.rel": false,
-    "distance": false,
-    "block_face": false,
-    "coordinates": false,
-    "registry_name": "OFF",
-    "mod_name": true
-  },
-  "apotheosis": {
-    "adventure": true,
-    "ench": true,
-    "spawner": true
-  },
-  "ae2": {
-    "part_icon": true,
-    "charger": true,
-    "debug": true,
-    "part_tooltip": true,
-    "grid_node_state": true,
-    "pattern_provider": true,
-    "part_mod_name": true,
-    "power_storage": true,
-    "crafting_monitor": true,
-    "part_name": true
   },
   "jadeaddons": {
     "equipment_requirement": ""
@@ -87,11 +59,23 @@
     "energy": true,
     "tooltip_renderer": true
   },
-  "pipez": {
-    "pipe": true
+  "immersiveengineering": {
+    "hemp": true,
+    "multiblock_icon": true
   },
   "twilightforest": {
     "quest_ram_wool": true
+  },
+  "secretroomsmod": {
+    "jadeaddons": true
+  },
+  "jade": {
+    "coordinates.rel": false,
+    "distance": false,
+    "block_face": false,
+    "coordinates": false,
+    "registry_name": "OFF",
+    "mod_name": true
   },
   "create": {
     "filter": true,
@@ -104,19 +88,21 @@
     "goggles.detailed": false,
     "placard": true
   },
+  "mcjtylib": {
+    "jadeaddons": true
+  },
+  "apotheosis": {
+    "adventure": true,
+    "ench": true,
+    "spawner": true
+  },
   "waystones": {
     "waystone": true
   },
-  "corpse": {
-    "corpse": true
-  },
   "securitycraft": {
-    "spoof_block_name": true,
     "showowner": false,
     "showmodules": false,
     "showpasswords": false,
-    "spoof_mod_name": true,
-    "spoof_block_icon": true,
     "info": false,
     "showcustomname": false
   }
