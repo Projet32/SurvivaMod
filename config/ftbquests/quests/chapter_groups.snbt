@@ -1,0 +1,6 @@
+{
+	chapter_groups: [
+		{ id: "2C7653172BE035E5", title: "Exploration" }
+		{ id: "3CB8E0B13491FFB2", title: "Mobs" }
+	]
+}

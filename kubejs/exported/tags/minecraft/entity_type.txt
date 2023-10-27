@@ -1,0 +1,653 @@
+To refresh this file, delete it and run /reload command again! Last updated: Dec 18, 2022, 7:54:34 PM
+
+#alexsmobs:tiger_targets
+- #alexsmobs:passive_land_animals (from alexsmobs-1.21.1.jar)
+- #alexsmobs:villagers (from alexsmobs-1.21.1.jar)
+- alexsmobs:kangaroo (from alexsmobs-1.21.1.jar)
+- alexsmobs:moose (from alexsmobs-1.21.1.jar)
+- alexsmobs:gelada_monkey (from alexsmobs-1.21.1.jar)
+
+#byg:boats
+- byg:boat (from Oh_The_Biomes_You'll_Go-forge-1.19.2-2.0.0.13.jar)
+- byg:chest_boat (from Oh_The_Biomes_You'll_Go-forge-1.19.2-2.0.0.13.jar)
+
+#byg:not_hurt_by_quartz_crystals
+- minecraft:ghast (from Oh_The_Biomes_You'll_Go-forge-1.19.2-2.0.0.13.jar)
+- minecraft:hoglin (from Oh_The_Biomes_You'll_Go-forge-1.19.2-2.0.0.13.jar)
+- minecraft:enderman (from Oh_The_Biomes_You'll_Go-forge-1.19.2-2.0.0.13.jar)
+
+#alexsmobs:mimic_octopus_fears
+- minecraft:drowned (from alexsmobs-1.21.1.jar)
+- minecraft:dolphin (from alexsmobs-1.21.1.jar)
+- alexsmobs:orca (from alexsmobs-1.21.1.jar)
+- alexsmobs:hammerhead_shark (from alexsmobs-1.21.1.jar)
+- alexsmobs:mantis_shrimp (from alexsmobs-1.21.1.jar)
+- alexsmobs:cachalot_whale (from alexsmobs-1.21.1.jar)
+- alexsmobs:frilled_shark (from alexsmobs-1.21.1.jar)
+- alexsmobs:catfish (from alexsmobs-1.21.1.jar)
+
+#alexsmobs:scatters_crows
+- #alexsmobs:neutral_land_animals (from alexsmobs-1.21.1.jar)
+
+#carryon:stacking_blacklist
+
+#alexsmobs:fly_annoy_targets
+- #alexsmobs:villagers (from alexsmobs-1.21.1.jar)
+- minecraft:player (from alexsmobs-1.21.1.jar)
+
+#twilightforest:lich_poppables
+- #minecraft:skeletons (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- minecraft:zombie (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- minecraft:enderman (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- minecraft:spider (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- minecraft:creeper (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:swarm_spider (from twilightforest-1.19.2-4.2.1468-universal.jar)
+
+#alexsmobs:crocodile_targets
+- #alexsmobs:passive_land_animals (from alexsmobs-1.21.1.jar)
+- #alexsmobs:villagers (from alexsmobs-1.21.1.jar)
+- alexsmobs:kangaroo (from alexsmobs-1.21.1.jar)
+- alexsmobs:gelada_monkey (from alexsmobs-1.21.1.jar)
+- alexsmobs:catfish (from alexsmobs-1.21.1.jar)
+
+#alexsmobs:anaconda_targets
+- #alexsmobs:passive_land_animals (from alexsmobs-1.21.1.jar)
+- #alexsmobs:villagers (from alexsmobs-1.21.1.jar)
+- alexsmobs:kangaroo (from alexsmobs-1.21.1.jar)
+- alexsmobs:crocodile (from alexsmobs-1.21.1.jar)
+- alexsmobs:snow_leopard (from alexsmobs-1.21.1.jar)
+- alexsmobs:moose (from alexsmobs-1.21.1.jar)
+- alexsmobs:gelada_monkey (from alexsmobs-1.21.1.jar)
+- alexsmobs:terrapin (from alexsmobs-1.21.1.jar)
+- minecraft:dolphin (from alexsmobs-1.21.1.jar)
+- alexsmobs:catfish (from alexsmobs-1.21.1.jar)
+- alexsmobs:flying_fish (from alexsmobs-1.21.1.jar)
+- alexsmobs:devils_hole_pupfish (from alexsmobs-1.21.1.jar)
+
+#minecraft:powder_snow_walkable_mobs
+- minecraft:rabbit (from Default)
+- minecraft:endermite (from Default)
+- minecraft:silverfish (from Default)
+- minecraft:fox (from Default)
+- alexsmobs:sunbird (from alexsmobs-1.21.1.jar)
+- alexsmobs:capuchin_monkey (from alexsmobs-1.21.1.jar)
+- alexsmobs:mimicube (from alexsmobs-1.21.1.jar)
+- alexsmobs:raccoon (from alexsmobs-1.21.1.jar)
+- alexsmobs:seal (from alexsmobs-1.21.1.jar)
+- alexsmobs:snow_leopard (from alexsmobs-1.21.1.jar)
+- alexsmobs:crow (from alexsmobs-1.21.1.jar)
+- alexsmobs:tasmanian_devil (from alexsmobs-1.21.1.jar)
+- alexsmobs:bald_eagle (from alexsmobs-1.21.1.jar)
+- alexsmobs:tiger (from alexsmobs-1.21.1.jar)
+- alexsmobs:maned_wolf (from alexsmobs-1.21.1.jar)
+- alexsmobs:jerboa (from alexsmobs-1.21.1.jar)
+- alexsmobs:bison (from alexsmobs-1.21.1.jar)
+- twilightforest:penguin (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:stable_ice_core (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:unstable_ice_core (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:snow_guardian (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:ice_crystal (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:raven (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:squirrel (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:dwarf_rabbit (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:tiny_bird (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:kobold (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:death_tome (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:mosquito_swarm (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:towerwood_borer (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- friendsandfoes:iceologer (from friendsandfoes-forge-mc1.19.2-1.6.3.jar)
+- thermal:blizz (from thermal_core-1.19.2-10.0.0.1.jar)
+- ecologics:penguin (from ecologics-forge-1.19.2-2.1.11.jar)
+- ecologics:squirrel (from ecologics-forge-1.19.2-2.1.11.jar)
+
+#ecologics:penguin_hunt_targets
+- minecraft:tropical_fish (from ecologics-forge-1.19.2-2.1.11.jar)
+- minecraft:salmon (from ecologics-forge-1.19.2-2.1.11.jar)
+- minecraft:cod (from ecologics-forge-1.19.2-2.1.11.jar)
+
+#starmute:mobs
+- minecraft:player (from Amplified_Nether_v1.2.jar)
+- minecraft:bat (from Amplified_Nether_v1.2.jar)
+- minecraft:chicken (from Amplified_Nether_v1.2.jar)
+- minecraft:cod (from Amplified_Nether_v1.2.jar)
+- minecraft:cow (from Amplified_Nether_v1.2.jar)
+- minecraft:donkey (from Amplified_Nether_v1.2.jar)
+- minecraft:fox (from Amplified_Nether_v1.2.jar)
+- minecraft:horse (from Amplified_Nether_v1.2.jar)
+- minecraft:mooshroom (from Amplified_Nether_v1.2.jar)
+- minecraft:mule (from Amplified_Nether_v1.2.jar)
+- minecraft:ocelot (from Amplified_Nether_v1.2.jar)
+- minecraft:panda (from Amplified_Nether_v1.2.jar)
+- minecraft:parrot (from Amplified_Nether_v1.2.jar)
+- minecraft:pig (from Amplified_Nether_v1.2.jar)
+- minecraft:rabbit (from Amplified_Nether_v1.2.jar)
+- minecraft:sheep (from Amplified_Nether_v1.2.jar)
+- minecraft:skeleton_horse (from Amplified_Nether_v1.2.jar)
+- minecraft:salmon (from Amplified_Nether_v1.2.jar)
+- minecraft:squid (from Amplified_Nether_v1.2.jar)
+- minecraft:strider (from Amplified_Nether_v1.2.jar)
+- minecraft:turtle (from Amplified_Nether_v1.2.jar)
+- minecraft:tropical_fish (from Amplified_Nether_v1.2.jar)
+- minecraft:villager (from Amplified_Nether_v1.2.jar)
+- minecraft:wandering_trader (from Amplified_Nether_v1.2.jar)
+- minecraft:bee (from Amplified_Nether_v1.2.jar)
+- minecraft:dolphin (from Amplified_Nether_v1.2.jar)
+- minecraft:polar_bear (from Amplified_Nether_v1.2.jar)
+- minecraft:wolf (from Amplified_Nether_v1.2.jar)
+- minecraft:cave_spider (from Amplified_Nether_v1.2.jar)
+- minecraft:enderman (from Amplified_Nether_v1.2.jar)
+- minecraft:iron_golem (from Amplified_Nether_v1.2.jar)
+- minecraft:spider (from Amplified_Nether_v1.2.jar)
+- minecraft:zombified_piglin (from Amplified_Nether_v1.2.jar)
+- minecraft:llama (from Amplified_Nether_v1.2.jar)
+- minecraft:trader_llama (from Amplified_Nether_v1.2.jar)
+- minecraft:pufferfish (from Amplified_Nether_v1.2.jar)
+- minecraft:blaze (from Amplified_Nether_v1.2.jar)
+- minecraft:creeper (from Amplified_Nether_v1.2.jar)
+- minecraft:drowned (from Amplified_Nether_v1.2.jar)
+- minecraft:elder_guardian (from Amplified_Nether_v1.2.jar)
+- minecraft:ender_dragon (from Amplified_Nether_v1.2.jar)
+- minecraft:evoker (from Amplified_Nether_v1.2.jar)
+- minecraft:ghast (from Amplified_Nether_v1.2.jar)
+- minecraft:guardian (from Amplified_Nether_v1.2.jar)
+- minecraft:hoglin (from Amplified_Nether_v1.2.jar)
+- minecraft:husk (from Amplified_Nether_v1.2.jar)
+- minecraft:magma_cube (from Amplified_Nether_v1.2.jar)
+- minecraft:phantom (from Amplified_Nether_v1.2.jar)
+- minecraft:piglin (from Amplified_Nether_v1.2.jar)
+- minecraft:piglin_brute (from Amplified_Nether_v1.2.jar)
+- minecraft:pillager (from Amplified_Nether_v1.2.jar)
+- minecraft:ravager (from Amplified_Nether_v1.2.jar)
+- minecraft:shulker (from Amplified_Nether_v1.2.jar)
+- minecraft:silverfish (from Amplified_Nether_v1.2.jar)
+- minecraft:skeleton (from Amplified_Nether_v1.2.jar)
+- minecraft:slime (from Amplified_Nether_v1.2.jar)
+- minecraft:stray (from Amplified_Nether_v1.2.jar)
+- minecraft:vex (from Amplified_Nether_v1.2.jar)
+- minecraft:vindicator (from Amplified_Nether_v1.2.jar)
+- minecraft:witch (from Amplified_Nether_v1.2.jar)
+- minecraft:wither (from Amplified_Nether_v1.2.jar)
+- minecraft:wither_skeleton (from Amplified_Nether_v1.2.jar)
+- minecraft:zoglin (from Amplified_Nether_v1.2.jar)
+- minecraft:zombie (from Amplified_Nether_v1.2.jar)
+- minecraft:zombie_villager (from Amplified_Nether_v1.2.jar)
+
+#farmersdelight:dog_food_users
+- minecraft:wolf (from FarmersDelight-1.19-1.2.0.jar)
+
+#alexsmobs:void_portal_ignores
+- alexsmobs:void_portal (from alexsmobs-1.21.1.jar)
+- minecraft:end_crystal (from alexsmobs-1.21.1.jar)
+- minecraft:ender_dragon (from alexsmobs-1.21.1.jar)
+
+#domesticationinnovation:petstore_fishtank
+- alexsmobs:lobster (from alexsmobs-1.21.1.jar)
+- alexsmobs:devils_hole_pupfish (from alexsmobs-1.21.1.jar)
+- alexsmobs:flying_fish (from alexsmobs-1.21.1.jar)
+- alexsmobs:mudskipper (from alexsmobs-1.21.1.jar)
+
+#alexsmobs:passive_land_animals
+- minecraft:cat (from alexsmobs-1.21.1.jar)
+- minecraft:chicken (from alexsmobs-1.21.1.jar)
+- minecraft:cow (from alexsmobs-1.21.1.jar)
+- minecraft:donkey (from alexsmobs-1.21.1.jar)
+- minecraft:fox (from alexsmobs-1.21.1.jar)
+- minecraft:horse (from alexsmobs-1.21.1.jar)
+- minecraft:llama (from alexsmobs-1.21.1.jar)
+- minecraft:mule (from alexsmobs-1.21.1.jar)
+- minecraft:mooshroom (from alexsmobs-1.21.1.jar)
+- minecraft:ocelot (from alexsmobs-1.21.1.jar)
+- minecraft:panda (from alexsmobs-1.21.1.jar)
+- minecraft:parrot (from alexsmobs-1.21.1.jar)
+- minecraft:pig (from alexsmobs-1.21.1.jar)
+- minecraft:rabbit (from alexsmobs-1.21.1.jar)
+- minecraft:sheep (from alexsmobs-1.21.1.jar)
+- minecraft:strider (from alexsmobs-1.21.1.jar)
+- minecraft:trader_llama (from alexsmobs-1.21.1.jar)
+- minecraft:wolf (from alexsmobs-1.21.1.jar)
+- alexsmobs:capuchin_monkey (from alexsmobs-1.21.1.jar)
+- alexsmobs:crow (from alexsmobs-1.21.1.jar)
+- alexsmobs:emu (from alexsmobs-1.21.1.jar)
+- alexsmobs:gazelle (from alexsmobs-1.21.1.jar)
+- alexsmobs:mungus (from alexsmobs-1.21.1.jar)
+- alexsmobs:platypus (from alexsmobs-1.21.1.jar)
+- alexsmobs:roadrunner (from alexsmobs-1.21.1.jar)
+- alexsmobs:seal (from alexsmobs-1.21.1.jar)
+- alexsmobs:shoebill (from alexsmobs-1.21.1.jar)
+- alexsmobs:tasmanian_devil (from alexsmobs-1.21.1.jar)
+- minecraft:goat (from alexsmobs-1.21.1.jar)
+- alexsmobs:toucan (from alexsmobs-1.21.1.jar)
+- alexsmobs:maned_wolf (from alexsmobs-1.21.1.jar)
+- alexsmobs:jerboa (from alexsmobs-1.21.1.jar)
+- minecraft:frog (from alexsmobs-1.21.1.jar)
+- alexsmobs:blue_jay (from alexsmobs-1.21.1.jar)
+
+#alexsmobs:villagers
+- minecraft:villager (from alexsmobs-1.21.1.jar)
+- minecraft:wandering_trader (from alexsmobs-1.21.1.jar)
+
+#alexsmobs:ignores_kimono
+- minecraft:wither (from alexsmobs-1.21.1.jar)
+- alexsmobs:murmur (from alexsmobs-1.21.1.jar)
+- alexsmobs:murmur_head (from alexsmobs-1.21.1.jar)
+
+#minecraft:impact_projectiles
+- #minecraft:arrows (from Default)
+- minecraft:snowball (from Default)
+- minecraft:fireball (from Default)
+- minecraft:small_fireball (from Default)
+- minecraft:egg (from Default)
+- minecraft:trident (from Default)
+- minecraft:dragon_fireball (from Default)
+- minecraft:wither_skull (from Default)
+- twilightforest:nature_bolt (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:lich_bolt (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:wand_bolt (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:lich_bomb (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:moonworm_shot (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:slime_blob (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:thrown_wep (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:thrown_ice (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:falling_ice (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:ice_snowball (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- thermal:basalz_projectile (from thermal_core-1.19.2-10.0.0.1.jar)
+- thermal:blitz_projectile (from thermal_core-1.19.2-10.0.0.1.jar)
+- thermal:blizz_projectile (from thermal_core-1.19.2-10.0.0.1.jar)
+
+#minecraft:beehive_inhabitors
+- minecraft:bee (from Default)
+
+#minecraft:skeletons
+- minecraft:skeleton (from Default)
+- minecraft:stray (from Default)
+- minecraft:wither_skeleton (from Default)
+- twilightforest:skeleton_druid (from twilightforest-1.19.2-4.2.1468-universal.jar)
+
+#alexsmobs:monkey_target_with_dart
+
+#minecraft:arrows
+- minecraft:arrow (from Default)
+- minecraft:spectral_arrow (from Default)
+- twilightforest:ice_arrow (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:seeker_arrow (from twilightforest-1.19.2-4.2.1468-universal.jar)
+
+#starmute:ghastling_enemy
+- minecraft:ghast (from Amplified_Nether_v1.2.jar)
+- minecraft:fireball (from Amplified_Nether_v1.2.jar)
+
+#starmute:wither
+- minecraft:wither (from Amplified_Nether_v1.2.jar)
+- minecraft:wither_skeleton (from Amplified_Nether_v1.2.jar)
+- minecraft:skeleton (from Amplified_Nether_v1.2.jar)
+- minecraft:zombified_piglin (from Amplified_Nether_v1.2.jar)
+
+#ftbchunks:entity_interact_whitelist
+
+#forge:bosses
+- #twilightforest:bosses (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- minecraft:ender_dragon (from forge-1.19.2-43.2.0-universal.jar)
+- minecraft:wither (from forge-1.19.2-43.2.0-universal.jar)
+
+#twilightforest:rides_obstruct_snatching
+- twilightforest:pinch_beetle (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:yeti (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:alpha_yeti (from twilightforest-1.19.2-4.2.1468-universal.jar)
+
+#alexsmobs:bunfungus_ignore_aoe_attacks
+- #alexsmobs:bunfungus_ignores (from alexsmobs-1.21.1.jar)
+- minecraft:creeper (from alexsmobs-1.21.1.jar)
+
+#twilightforest:lifedrain_drops_no_flesh
+- #minecraft:skeletons (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- minecraft:iron_golem (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- minecraft:shulker (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- minecraft:skeleton_horse (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- minecraft:slime (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- minecraft:snow_golem (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:carminite_golem (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:death_tome (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:ice_crystal (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:knight_phantom (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:lich (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:maze_slime (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:mosquito_swarm (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:snow_guardian (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:stable_ice_core (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:unstable_ice_core (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:wraith (from twilightforest-1.19.2-4.2.1468-universal.jar)
+
+#alexsmobs:snow_leopard_targets
+- minecraft:cow (from alexsmobs-1.21.1.jar)
+- minecraft:chicken (from alexsmobs-1.21.1.jar)
+- minecraft:donkey (from alexsmobs-1.21.1.jar)
+- minecraft:horse (from alexsmobs-1.21.1.jar)
+- minecraft:llama (from alexsmobs-1.21.1.jar)
+- minecraft:mule (from alexsmobs-1.21.1.jar)
+- minecraft:parrot (from alexsmobs-1.21.1.jar)
+- minecraft:pig (from alexsmobs-1.21.1.jar)
+- minecraft:rabbit (from alexsmobs-1.21.1.jar)
+- minecraft:sheep (from alexsmobs-1.21.1.jar)
+- minecraft:goat (from alexsmobs-1.21.1.jar)
+- minecraft:trader_llama (from alexsmobs-1.21.1.jar)
+- alexsmobs:capuchin_monkey (from alexsmobs-1.21.1.jar)
+- alexsmobs:crow (from alexsmobs-1.21.1.jar)
+- alexsmobs:gelada_monkey (from alexsmobs-1.21.1.jar)
+
+#minecraft:axolotl_always_hostiles
+- minecraft:drowned (from Default)
+- minecraft:guardian (from Default)
+- minecraft:elder_guardian (from Default)
+
+#minecraft:freeze_immune_entity_types
+- minecraft:stray (from Default)
+- minecraft:polar_bear (from Default)
+- minecraft:snow_golem (from Default)
+- minecraft:wither (from Default)
+- alexsmobs:moose (from alexsmobs-1.21.1.jar)
+- alexsmobs:snow_leopard (from alexsmobs-1.21.1.jar)
+- alexsmobs:froststalker (from alexsmobs-1.21.1.jar)
+- alexsmobs:tusklin (from alexsmobs-1.21.1.jar)
+- alexsmobs:raccoon (from alexsmobs-1.21.1.jar)
+- alexsmobs:bison (from alexsmobs-1.21.1.jar)
+- twilightforest:penguin (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:stable_ice_core (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:unstable_ice_core (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:snow_guardian (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:ice_crystal (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:wraith (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:knight_phantom (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:winter_wolf (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:yeti (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- #twilightforest:bosses (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- thermal:blizz (from thermal_core-1.19.2-10.0.0.1.jar)
+- rottencreatures:frostbitten (from rottencreatures-forge-1.19.2-1.0.1.jar)
+- ecologics:penguin (from ecologics-forge-1.19.2-2.1.11.jar)
+
+#twilightforest:bosses
+- twilightforest:naga (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:lich (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:minoshroom (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:hydra (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:knight_phantom (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:ur_ghast (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:alpha_yeti (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:snow_queen (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:plateau_boss (from twilightforest-1.19.2-4.2.1468-universal.jar)
+
+#alexsmobs:orca_targets
+- alexsmobs:moose (from alexsmobs-1.21.1.jar)
+- alexsmobs:seal (from alexsmobs-1.21.1.jar)
+- minecraft:polar_bear (from alexsmobs-1.21.1.jar)
+- minecraft:turtle (from alexsmobs-1.21.1.jar)
+- minecraft:drowned (from alexsmobs-1.21.1.jar)
+- minecraft:guardian (from alexsmobs-1.21.1.jar)
+- minecraft:elder_guardian (from alexsmobs-1.21.1.jar)
+
+#alexsmobs:fly_hurt_targets
+- minecraft:drowned (from alexsmobs-1.21.1.jar)
+- minecraft:husk (from alexsmobs-1.21.1.jar)
+- minecraft:zombie_villager (from alexsmobs-1.21.1.jar)
+- minecraft:zombie (from alexsmobs-1.21.1.jar)
+
+#carryon:stacking_whitelist
+
+#alexsmobs:sunbird_scorch_targets
+- #minecraft:skeletons (from alexsmobs-1.21.1.jar)
+- minecraft:zombie (from alexsmobs-1.21.1.jar)
+- minecraft:husk (from alexsmobs-1.21.1.jar)
+- minecraft:drowned (from alexsmobs-1.21.1.jar)
+- minecraft:phantom (from alexsmobs-1.21.1.jar)
+- minecraft:wither (from alexsmobs-1.21.1.jar)
+- minecraft:warden (from alexsmobs-1.21.1.jar)
+- alexsmobs:soul_vulture (from alexsmobs-1.21.1.jar)
+- alexsmobs:skelewag (from alexsmobs-1.21.1.jar)
+
+#alexsmobs:crimson_mosquito_targets
+- #alexsmobs:passive_land_animals (from alexsmobs-1.21.1.jar)
+- #alexsmobs:neutral_land_animals (from alexsmobs-1.21.1.jar)
+- #alexsmobs:villagers (from alexsmobs-1.21.1.jar)
+
+#friendsandfoes:wildfire_allies
+- friendsandfoes:wildfire (from friendsandfoes-forge-mc1.19.2-1.6.3.jar)
+- minecraft:blaze (from friendsandfoes-forge-mc1.19.2-1.6.3.jar)
+- minecraft:wither_skeleton (from friendsandfoes-forge-mc1.19.2-1.6.3.jar)
+
+#minecraft:frog_food
+- minecraft:slime (from Default)
+- minecraft:magma_cube (from Default)
+- alexsmobs:fly (from alexsmobs-1.21.1.jar)
+- twilightforest:maze_slime (from twilightforest-1.19.2-4.2.1468-universal.jar)
+
+#forge:boats
+- #byg:boats (from Oh_The_Biomes_You'll_Go-forge-1.19.2-2.0.0.13.jar)
+
+#alexsmobs:skunk_fears
+- minecraft:player (from alexsmobs-1.21.1.jar)
+- alexsmobs:grizzly_bear (from alexsmobs-1.21.1.jar)
+- minecraft:polar_bear (from alexsmobs-1.21.1.jar)
+
+#farmersdelight:horse_feed_users
+- minecraft:horse (from FarmersDelight-1.19-1.2.0.jar)
+- minecraft:skeleton_horse (from FarmersDelight-1.19-1.2.0.jar)
+- minecraft:zombie_horse (from FarmersDelight-1.19-1.2.0.jar)
+- minecraft:donkey (from FarmersDelight-1.19-1.2.0.jar)
+- minecraft:mule (from FarmersDelight-1.19-1.2.0.jar)
+- minecraft:llama (from FarmersDelight-1.19-1.2.0.jar)
+
+#minecraft:raiders
+- minecraft:evoker (from Default)
+- minecraft:pillager (from Default)
+- minecraft:ravager (from Default)
+- minecraft:vindicator (from Default)
+- minecraft:illusioner (from Default)
+- minecraft:witch (from Default)
+
+#byg:all/boats
+- #byg:boats? (from Oh_The_Biomes_You'll_Go-forge-1.19.2-2.0.0.13.jar)
+- #c:boats? (from Oh_The_Biomes_You'll_Go-forge-1.19.2-2.0.0.13.jar)
+- #forge:boats? (from Oh_The_Biomes_You'll_Go-forge-1.19.2-2.0.0.13.jar)
+
+#minecraft:axolotl_hunt_targets
+- minecraft:tropical_fish (from Default)
+- minecraft:pufferfish (from Default)
+- minecraft:salmon (from Default)
+- minecraft:cod (from Default)
+- minecraft:squid (from Default)
+- minecraft:glow_squid (from Default)
+- minecraft:tadpole (from Default)
+
+#carryon:entity_whitelist
+
+#starmute:sentry_targets
+- minecraft:player (from Amplified_Nether_v1.2.jar)
+- minecraft:armor_stand (from Amplified_Nether_v1.2.jar)
+
+#alexsmobs:giant_squid_targets
+- alexsmobs:blobfish (from alexsmobs-1.21.1.jar)
+- minecraft:cod (from alexsmobs-1.21.1.jar)
+- minecraft:salmon (from alexsmobs-1.21.1.jar)
+- minecraft:tropical_fish (from alexsmobs-1.21.1.jar)
+- alexsmobs:catfish (from alexsmobs-1.21.1.jar)
+- alexsmobs:flying_fish (from alexsmobs-1.21.1.jar)
+- alexsmobs:devils_hole_pupfish (from alexsmobs-1.21.1.jar)
+
+#alexsmobs:neutral_land_animals
+- minecraft:polar_bear (from alexsmobs-1.21.1.jar)
+- alexsmobs:bald_eagle (from alexsmobs-1.21.1.jar)
+- alexsmobs:elephant (from alexsmobs-1.21.1.jar)
+- alexsmobs:endergrade (from alexsmobs-1.21.1.jar)
+- alexsmobs:grizzly_bear (from alexsmobs-1.21.1.jar)
+- alexsmobs:gorilla (from alexsmobs-1.21.1.jar)
+- alexsmobs:kangaroo (from alexsmobs-1.21.1.jar)
+- alexsmobs:moose (from alexsmobs-1.21.1.jar)
+- alexsmobs:raccoon (from alexsmobs-1.21.1.jar)
+- alexsmobs:rattlesnake (from alexsmobs-1.21.1.jar)
+- alexsmobs:snow_leopard (from alexsmobs-1.21.1.jar)
+- alexsmobs:tiger (from alexsmobs-1.21.1.jar)
+- alexsmobs:anteater (from alexsmobs-1.21.1.jar)
+- alexsmobs:gelada_monkey (from alexsmobs-1.21.1.jar)
+
+#alexsmobs:mantis_shrimp_targets
+- alexsmobs:mimic_octopus (from alexsmobs-1.21.1.jar)
+- alexsmobs:lobster (from alexsmobs-1.21.1.jar)
+- minecraft:shulker (from alexsmobs-1.21.1.jar)
+- minecraft:squid (from alexsmobs-1.21.1.jar)
+- minecraft:guardian (from alexsmobs-1.21.1.jar)
+- minecraft:elder_guardian (from alexsmobs-1.21.1.jar)
+- minecraft:tropical_fish (from alexsmobs-1.21.1.jar)
+- alexsmobs:catfish (from alexsmobs-1.21.1.jar)
+- alexsmobs:flying_fish (from alexsmobs-1.21.1.jar)
+
+#alexsmobs:cachalot_whale_targets
+- alexsmobs:mimic_octopus (from alexsmobs-1.21.1.jar)
+- alexsmobs:giant_squid (from alexsmobs-1.21.1.jar)
+- minecraft:squid (from alexsmobs-1.21.1.jar)
+- minecraft:glow_squid (from alexsmobs-1.21.1.jar)
+
+#twilightforest:sortable_entities
+- minecraft:chest_minecart (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- minecraft:hopper_minecart (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- minecraft:llama (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- minecraft:trader_llama (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- minecraft:donkey (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- minecraft:mule (from twilightforest-1.19.2-4.2.1468-universal.jar)
+
+#domesticationinnovation:petstore_cage_3
+- alexsmobs:seagull (from alexsmobs-1.21.1.jar)
+- alexsmobs:toucan (from alexsmobs-1.21.1.jar)
+- alexsmobs:crow (from alexsmobs-1.21.1.jar)
+- alexsmobs:potoo (from alexsmobs-1.21.1.jar)
+- alexsmobs:sugar_glider (from alexsmobs-1.21.1.jar)
+
+#domesticationinnovation:petstore_cage_2
+- alexsmobs:froststalker (from alexsmobs-1.21.1.jar)
+
+#starmute:mobs_no_player
+- minecraft:bat (from Amplified_Nether_v1.2.jar)
+- minecraft:chicken (from Amplified_Nether_v1.2.jar)
+- minecraft:cod (from Amplified_Nether_v1.2.jar)
+- minecraft:cow (from Amplified_Nether_v1.2.jar)
+- minecraft:donkey (from Amplified_Nether_v1.2.jar)
+- minecraft:fox (from Amplified_Nether_v1.2.jar)
+- minecraft:horse (from Amplified_Nether_v1.2.jar)
+- minecraft:mooshroom (from Amplified_Nether_v1.2.jar)
+- minecraft:mule (from Amplified_Nether_v1.2.jar)
+- minecraft:ocelot (from Amplified_Nether_v1.2.jar)
+- minecraft:panda (from Amplified_Nether_v1.2.jar)
+- minecraft:parrot (from Amplified_Nether_v1.2.jar)
+- minecraft:pig (from Amplified_Nether_v1.2.jar)
+- minecraft:rabbit (from Amplified_Nether_v1.2.jar)
+- minecraft:sheep (from Amplified_Nether_v1.2.jar)
+- minecraft:skeleton_horse (from Amplified_Nether_v1.2.jar)
+- minecraft:salmon (from Amplified_Nether_v1.2.jar)
+- minecraft:squid (from Amplified_Nether_v1.2.jar)
+- minecraft:strider (from Amplified_Nether_v1.2.jar)
+- minecraft:turtle (from Amplified_Nether_v1.2.jar)
+- minecraft:tropical_fish (from Amplified_Nether_v1.2.jar)
+- minecraft:villager (from Amplified_Nether_v1.2.jar)
+- minecraft:wandering_trader (from Amplified_Nether_v1.2.jar)
+- minecraft:bee (from Amplified_Nether_v1.2.jar)
+- minecraft:dolphin (from Amplified_Nether_v1.2.jar)
+- minecraft:polar_bear (from Amplified_Nether_v1.2.jar)
+- minecraft:wolf (from Amplified_Nether_v1.2.jar)
+- minecraft:cave_spider (from Amplified_Nether_v1.2.jar)
+- minecraft:enderman (from Amplified_Nether_v1.2.jar)
+- minecraft:iron_golem (from Amplified_Nether_v1.2.jar)
+- minecraft:spider (from Amplified_Nether_v1.2.jar)
+- minecraft:zombified_piglin (from Amplified_Nether_v1.2.jar)
+- minecraft:llama (from Amplified_Nether_v1.2.jar)
+- minecraft:trader_llama (from Amplified_Nether_v1.2.jar)
+- minecraft:pufferfish (from Amplified_Nether_v1.2.jar)
+- minecraft:blaze (from Amplified_Nether_v1.2.jar)
+- minecraft:creeper (from Amplified_Nether_v1.2.jar)
+- minecraft:drowned (from Amplified_Nether_v1.2.jar)
+- minecraft:elder_guardian (from Amplified_Nether_v1.2.jar)
+- minecraft:ender_dragon (from Amplified_Nether_v1.2.jar)
+- minecraft:evoker (from Amplified_Nether_v1.2.jar)
+- minecraft:ghast (from Amplified_Nether_v1.2.jar)
+- minecraft:guardian (from Amplified_Nether_v1.2.jar)
+- minecraft:hoglin (from Amplified_Nether_v1.2.jar)
+- minecraft:husk (from Amplified_Nether_v1.2.jar)
+- minecraft:magma_cube (from Amplified_Nether_v1.2.jar)
+- minecraft:phantom (from Amplified_Nether_v1.2.jar)
+- minecraft:piglin (from Amplified_Nether_v1.2.jar)
+- minecraft:piglin_brute (from Amplified_Nether_v1.2.jar)
+- minecraft:pillager (from Amplified_Nether_v1.2.jar)
+- minecraft:ravager (from Amplified_Nether_v1.2.jar)
+- minecraft:shulker (from Amplified_Nether_v1.2.jar)
+- minecraft:silverfish (from Amplified_Nether_v1.2.jar)
+- minecraft:skeleton (from Amplified_Nether_v1.2.jar)
+- minecraft:slime (from Amplified_Nether_v1.2.jar)
+- minecraft:stray (from Amplified_Nether_v1.2.jar)
+- minecraft:vex (from Amplified_Nether_v1.2.jar)
+- minecraft:vindicator (from Amplified_Nether_v1.2.jar)
+- minecraft:witch (from Amplified_Nether_v1.2.jar)
+- minecraft:wither (from Amplified_Nether_v1.2.jar)
+- minecraft:wither_skeleton (from Amplified_Nether_v1.2.jar)
+- minecraft:zoglin (from Amplified_Nether_v1.2.jar)
+- minecraft:zombie (from Amplified_Nether_v1.2.jar)
+- minecraft:zombie_villager (from Amplified_Nether_v1.2.jar)
+
+#alexsmobs:warped_toad_targets
+- minecraft:silverfish (from alexsmobs-1.21.1.jar)
+- minecraft:spider (from alexsmobs-1.21.1.jar)
+- minecraft:cave_spider (from alexsmobs-1.21.1.jar)
+- alexsmobs:crimson_mosquito (from alexsmobs-1.21.1.jar)
+- alexsmobs:fly (from alexsmobs-1.21.1.jar)
+- alexsmobs:cockroach (from alexsmobs-1.21.1.jar)
+- alexsmobs:warped_mosco (from alexsmobs-1.21.1.jar)
+- alexsmobs:leafcutter_ant (from alexsmobs-1.21.1.jar)
+- alexsmobs:tarantula_hawk (from alexsmobs-1.21.1.jar)
+
+#minecraft:freeze_hurts_extra_types
+- minecraft:strider (from Default)
+- minecraft:blaze (from Default)
+- minecraft:magma_cube (from Default)
+- twilightforest:fire_beetle (from twilightforest-1.19.2-4.2.1468-universal.jar)
+
+#carryon:entity_blacklist
+
+#twilightforest:dont_kill_bugs
+- twilightforest:moonworm_shot (from twilightforest-1.19.2-4.2.1468-universal.jar)
+
+#alexsmobs:bunfungus_ignores
+- creeperoverhaul:mushroom_creeper? (from alexsmobs-1.21.1.jar)
+
+#domesticationinnovation:petstore_cage_1
+- alexsmobs:capuchin_monkey (from alexsmobs-1.21.1.jar)
+- alexsmobs:flutter (from alexsmobs-1.21.1.jar)
+- alexsmobs:maned_wolf (from alexsmobs-1.21.1.jar)
+- alexsmobs:jerboa (from alexsmobs-1.21.1.jar)
+- alexsmobs:sugar_glider (from alexsmobs-1.21.1.jar)
+
+#domesticationinnovation:petstore_cage_0
+- minecraft:wolf (from alexsmobs-1.21.1.jar)
+- minecraft:cat (from alexsmobs-1.21.1.jar)
+- minecraft:rabbit (from alexsmobs-1.21.1.jar)
+
+#friendsandfoes:mauler_prey
+- minecraft:chicken (from friendsandfoes-forge-mc1.19.2-1.6.3.jar)
+- minecraft:rabbit (from friendsandfoes-forge-mc1.19.2-1.6.3.jar)
+- minecraft:frog (from friendsandfoes-forge-mc1.19.2-1.6.3.jar)
+- minecraft:slime (from friendsandfoes-forge-mc1.19.2-1.6.3.jar)
+- minecraft:zombie (from friendsandfoes-forge-mc1.19.2-1.6.3.jar)
+
+#alexsmobs:froststalker_targets
+- #alexsmobs:villagers (from alexsmobs-1.21.1.jar)
+- #alexsmobs:passive_land_animals (from alexsmobs-1.21.1.jar)
+- minecraft:goat (from alexsmobs-1.21.1.jar)
+- alexsmobs:tusklin (from alexsmobs-1.21.1.jar)
+
+#alexsmobs:komodo_dragon_targets
+- #alexsmobs:passive_land_animals (from alexsmobs-1.21.1.jar)
+- #alexsmobs:villagers (from alexsmobs-1.21.1.jar)
+- alexsmobs:kangaroo (from alexsmobs-1.21.1.jar)
+- alexsmobs:gelada_monkey (from alexsmobs-1.21.1.jar)
+
+#alexsmobs:bald_eagle_targets
+- minecraft:rabbit (from alexsmobs-1.21.1.jar)
+- minecraft:salmon (from alexsmobs-1.21.1.jar)
+- alexsmobs:raccoon (from alexsmobs-1.21.1.jar)
+- alexsmobs:jerboa (from alexsmobs-1.21.1.jar)
+- alexsmobs:catfish (from alexsmobs-1.21.1.jar)
+- alexsmobs:flying_fish (from alexsmobs-1.21.1.jar)

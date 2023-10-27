@@ -1,0 +1,59 @@
+[general]
+	#Range: 1 ~ 1000
+	job_start_cost = 10
+	#Range: 1 ~ 1000
+	job_stop_cost = 5
+	#Range: 0 ~ 1000
+	powerup_cost = 10
+	#Range: 1 ~ 10
+	amount_of_free_jobs = 2
+	#Range: 0 ~ 100
+	job_level_to_stop_job_for_free = 1
+	set_first_job_as_display = true
+
+[chat]
+	#Make chat look fancy.
+	format_chat = true
+	display_job_in_chat_and_tab = true
+
+[level_up]
+	#Amount of coins given to a player each time they level up a job.
+	#Range: > 0
+	coins_per_level_up = 1
+
+[multiplier]
+	#Job-EXP multipliers work like this: (default job-EXP * job-EXP multiplier) * global job-EXP multiplier.
+	#Example, player gets 4 job-EXP from fishing with a 1.45 fisherman multiplier and a 3.22 global multiplier:
+	#Outcome: (4 * 1.45) * 3.22 = 18.676 = 19 job-EXP gained (rounded).
+	#Range: 0.01 ~ 1000.0
+	global_exp_multiplier = 1.0
+	#Range: 0.01 ~ 1000.0
+	alchemist_exp_multiplier = 1.0
+	#Range: 0.01 ~ 1000.0
+	builder_exp_multiplier = 1.0
+	#Range: 0.01 ~ 1000.0
+	digger_exp_multiplier = 1.0
+	#Range: 0.01 ~ 1000.0
+	enchanter_exp_multiplier = 1.0
+	#Range: 0.01 ~ 1000.0
+	farmer_exp_multiplier = 1.0
+	#Range: 0.01 ~ 1000.0
+	fisherman_exp_multiplier = 1.0
+	#Range: 0.01 ~ 1000.0
+	hunter_exp_multiplier = 1.0
+	#Range: 0.01 ~ 1000.0
+	lumberjack_exp_multiplier = 1.0
+	#Range: 0.01 ~ 1000.0
+	miner_exp_multiplier = 1.0
+	#Range: 0.01 ~ 1000.0
+	smith_exp_multiplier = 1.0
+
+[alchemist]
+	#Don't remove effect when alchemist level isn't high enough if true.
+	allow_all_effects = false
+	enable_potion_of_flight = true
+
+[miner]
+	#Range: 0 ~ 4095
+	max_vein_miner_blocks = 511
+

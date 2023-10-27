@@ -1,0 +1,19 @@
+{
+	member: {
+		name: "Member"
+		power: 1
+		condition: "always_active"
+	}
+	dev: {
+		name: "dev"
+		poxer: 25
+		ftbranks.name_format: "&dev {name}"
+
+	}
+	admin: {
+		name: "Admin"
+		power: 1000
+		condition: "op"
+		ftbranks.name_format: "&2{name}"
+	}
+}

@@ -1,0 +1,67 @@
+To refresh this file, delete it and run /reload command again! Last updated: Dec 18, 2022, 7:54:34 PM
+
+#forge:ender
+- thermal:ender (from thermal_core-1.19.2-10.0.0.1.jar)
+
+#forge:experience
+- cofh_core:experience (from cofh_core-1.19.2-10.0.0.29.jar)
+
+#forge:crude_oil
+- thermal:crude_oil (from thermal_core-1.19.2-10.0.0.1.jar)
+
+#minecraft:water
+- minecraft:water (from Default)
+- minecraft:flowing_water (from Default)
+
+#forge:redstone
+- thermal:redstone (from thermal_core-1.19.2-10.0.0.1.jar)
+
+#forge:milk
+- minecraft:milk? (from forge-1.19.2-43.2.0-universal.jar)
+- minecraft:flowing_milk? (from forge-1.19.2-43.2.0-universal.jar)
+
+#forge:glowstone
+- thermal:glowstone (from thermal_core-1.19.2-10.0.0.1.jar)
+
+#forge:tea
+- create:flowing_tea (from create-1.19.2-0.5.0.g.jar)
+- create:tea (from create-1.19.2-0.5.0.g.jar)
+
+#twilightforest:fire_jet_fuel
+- #minecraft:lava (from twilightforest-1.19.2-4.2.1468-universal.jar)
+
+#minecraft:lava
+- minecraft:lava (from Default)
+- minecraft:flowing_lava (from Default)
+
+#biomesoplenty:blood
+- biomesoplenty:blood (from BiomesOPlenty-1.19.2-17.1.1.162.jar)
+- biomesoplenty:flowing_blood (from BiomesOPlenty-1.19.2-17.1.1.162.jar)
+
+#create:bottomless/deny
+
+#forge:latex
+- thermal:latex (from thermal_core-1.19.2-10.0.0.1.jar)
+
+#forge:chocolate
+- create:flowing_chocolate (from create-1.19.2-0.5.0.g.jar)
+- create:chocolate (from create-1.19.2-0.5.0.g.jar)
+
+#create:bottomless/allow
+- minecraft:water (from create-1.19.2-0.5.0.g.jar)
+- minecraft:lava (from create-1.19.2-0.5.0.g.jar)
+
+#forge:honey
+- cofh_core:honey (from cofh_core-1.19.2-10.0.0.29.jar)
+- create:flowing_honey (from create-1.19.2-0.5.0.g.jar)
+- create:honey (from create-1.19.2-0.5.0.g.jar)
+
+#forge:creosote
+- thermal:creosote (from thermal_core-1.19.2-10.0.0.1.jar)
+
+#blueflame:soul_flame_source
+- allthemodium:soul_lava? (from blueflame-1.19.2-0.1.0.2.jar)
+- allthemodium:flowing_soul_lava? (from blueflame-1.19.2-0.1.0.2.jar)
+
+#forge:potion
+- cofh_core:potion (from cofh_core-1.19.2-10.0.0.29.jar)

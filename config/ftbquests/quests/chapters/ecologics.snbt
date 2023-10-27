@@ -1,0 +1,967 @@
+{
+	id: "09E5C41F626C316B"
+	group: "2C7653172BE035E5"
+	order_index: 3
+	filename: "ecologics"
+	title: "Ecologics"
+	icon: "ecologics:coconut"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -4.5d
+			y: 2.5d
+			id: "59DF10C059F5639B"
+			tasks: [{
+				id: "46793ED8E46BBB1C"
+				type: "biome"
+				title: "Plains"
+				icon: "minecraft:grass_block"
+				biome: "minecraft:plains"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 5.0d
+			id: "28C899B3721DB41E"
+			tasks: [{
+				id: "6849CC0CA782DEF9"
+				type: "biome"
+				title: "Beach"
+				icon: "minecraft:sand"
+				biome: "minecraft:beach"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -2.5d
+			id: "4208AC0F131E5ECE"
+			tasks: [{
+				id: "69EA51F6BBEFBD4C"
+				type: "biome"
+				title: "Lush Caves"
+				icon: "minecraft:moss_block"
+				biome: "minecraft:lush_caves"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -5.0d
+			id: "011A865D921C3332"
+			tasks: [{
+				id: "3F8C0333C36B3710"
+				type: "biome"
+				title: "Snowy plains"
+				icon: "minecraft:snow_block"
+				biome: "minecraft:snowy_plains"
+			}]
+		}
+		{
+			icon: "minecraft:cactus"
+			x: -4.5d
+			y: 0.0d
+			id: "23F44C0F21362C31"
+			tasks: [{
+				id: "233B3027E3DCE7B9"
+				type: "biome"
+				title: "Desert"
+				biome: "minecraft:desert"
+			}]
+		}
+		{
+			title: "Now I don't need ancient debris"
+			icon: "ecologics:coconut_log"
+			x: -2.5d
+			y: 4.5d
+			dependencies: ["28C899B3721DB41E"]
+			id: "64121B153D549BDF"
+			tasks: [{
+				id: "65FD66609691051A"
+				type: "item"
+				item: "ecologics:coconut_log"
+			}]
+		}
+		{
+			title: "A coconut panel"
+			icon: "ecologics:coconut_wood"
+			x: -0.5d
+			y: 3.5d
+			dependencies: ["64121B153D549BDF"]
+			id: "109687F49E4F2E32"
+			tasks: [
+				{
+					id: "09541F8B36A6D3F9"
+					type: "item"
+					item: "ecologics:coconut_wood"
+				}
+				{
+					id: "155A2041DCBA9C54"
+					type: "item"
+					item: "ecologics:coconut_log"
+				}
+				{
+					id: "641670979F4B1B5A"
+					type: "item"
+					item: "ecologics:stripped_coconut_wood"
+				}
+				{
+					id: "1C63E068471424C2"
+					type: "item"
+					item: "ecologics:stripped_coconut_log"
+				}
+				{
+					id: "36D0800C4D0584AB"
+					type: "item"
+					item: "ecologics:coconut_leaves"
+				}
+				{
+					id: "60ACB72FEBCA37E4"
+					type: "item"
+					item: "ecologics:coconut_planks"
+				}
+				{
+					id: "5CAB05293E639317"
+					type: "item"
+					item: "ecologics:coconut_slab"
+				}
+				{
+					id: "5A6A2A5285BBB12F"
+					type: "item"
+					item: "ecologics:coconut_stairs"
+				}
+				{
+					id: "69A4815D8F42BE47"
+					type: "item"
+					item: "ecologics:coconut_fence"
+				}
+				{
+					id: "60A2FD71174821EA"
+					type: "item"
+					item: "ecologics:coconut_fence_gate"
+				}
+				{
+					id: "357632072944B5CA"
+					type: "item"
+					item: "ecologics:coconut_door"
+				}
+				{
+					id: "6C324EB8531330B5"
+					type: "item"
+					item: "ecologics:coconut_trapdoor"
+				}
+				{
+					id: "53C2D08457A5E6A4"
+					type: "item"
+					item: "ecologics:coconut_button"
+				}
+				{
+					id: "7DE400F08F739090"
+					type: "item"
+					item: "ecologics:coconut_pressure_plate"
+				}
+				{
+					id: "79A795DFDFAE9752"
+					type: "item"
+					item: "ecologics:coconut_sign"
+				}
+				{
+					id: "34B1406BAE7CA7BA"
+					type: "item"
+					item: "ecologics:coconut_boat"
+				}
+			]
+			rewards: [{
+				id: "7ABA754B2FAC5474"
+				type: "item"
+				item: "ecologics:coconut_log"
+				count: 16
+			}]
+		}
+		{
+			title: "A coconut saplings"
+			x: -0.5d
+			y: 4.5d
+			dependencies: ["64121B153D549BDF"]
+			id: "566D73B4A5486A3E"
+			tasks: [{
+				id: "513A61A4BF0B556F"
+				type: "item"
+				item: "ecologics:coconut_seedling"
+			}]
+		}
+		{
+			title: "Food that fell from the sky"
+			x: 1.0d
+			y: 4.5d
+			dependencies: ["566D73B4A5486A3E"]
+			dependency_requirement: "one_started"
+			id: "6C7AC82118BB769E"
+			tasks: [{
+				id: "64DD203454D3F13C"
+				type: "item"
+				item: "ecologics:coconut_slice"
+			}]
+		}
+		{
+			title: "A coconut bowl"
+			x: 2.5d
+			y: 4.0d
+			dependencies: ["6C7AC82118BB769E"]
+			id: "093097A8DED7A0F2"
+			tasks: [{
+				id: "5B2D0E59B14DF1D1"
+				type: "item"
+				item: "ecologics:coconut_husk"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 5.5d
+			dependencies: ["566D73B4A5486A3E"]
+			id: "7F733EB773850596"
+			tasks: [{
+				id: "096C25ED6A3EFC7F"
+				type: "observation"
+				title: "Crab"
+				icon: "ecologics:coconut_crab_spawn_egg"
+				timer: 0L
+				observe_type: 5
+				to_observe: "ecologics:coconut_crab"
+			}]
+		}
+		{
+			icon: {
+				id: "ecologics:crab_claw"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 2.0d
+			y: 6.0d
+			dependencies: ["7F733EB773850596"]
+			id: "1D1613DED2AC8ACC"
+			tasks: [{
+				id: "2B0F58BCD45E6138"
+				type: "kill"
+				title: "Not coconut crab"
+				entity: "ecologics:coconut_crab"
+				value: 1L
+			}]
+		}
+		{
+			icon: "ecologics:tropical_stew"
+			x: 4.5d
+			y: 4.5d
+			dependencies: [
+				"6C7AC82118BB769E"
+				"0EEA8859650672AC"
+			]
+			id: "2D0F0E196A81A0C2"
+			tasks: [{
+				id: "19968F21376B7C16"
+				type: "item"
+				item: "ecologics:tropical_stew"
+			}]
+			rewards: [{
+				id: "0EEFB6A3CE543712"
+				type: "item"
+				item: "ecologics:crab_meat"
+				count: 8
+			}]
+		}
+		{
+			x: 3.0d
+			y: 6.0d
+			dependencies: ["1D1613DED2AC8ACC"]
+			id: "3A812C11D925FF47"
+			tasks: [{
+				id: "69A4DA2CD33378B1"
+				type: "item"
+				item: {
+					id: "ecologics:crab_claw"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Crab food"
+			x: 4.0d
+			y: 5.5d
+			dependencies: ["3A812C11D925FF47"]
+			id: "0EEA8859650672AC"
+			tasks: [{
+				id: "32AB9A9EB6879A27"
+				type: "item"
+				item: "ecologics:crab_meat"
+			}]
+		}
+		{
+			title: "First Seashell"
+			x: -2.5d
+			y: 6.0d
+			dependencies: ["28C899B3721DB41E"]
+			id: "3323D97F438A1FA2"
+			tasks: [{
+				id: "106659598FF0D9D4"
+				type: "item"
+				item: "ecologics:seashell"
+			}]
+		}
+		{
+			title: "A castle"
+			x: -0.5d
+			y: 6.5d
+			dependencies: ["3323D97F438A1FA2"]
+			dependency_requirement: "one_completed"
+			id: "7758B31D4E47A6F2"
+			tasks: [{
+				id: "277E0488D9E8BD4B"
+				type: "item"
+				item: "ecologics:sandcastle"
+			}]
+		}
+		{
+			title: "Seashell block collection"
+			icon: "ecologics:seashell_block"
+			x: -0.5d
+			y: 5.5d
+			dependencies: ["3323D97F438A1FA2"]
+			id: "1A301F6F9BEF831C"
+			tasks: [
+				{
+					id: "02758AD26EC8CA42"
+					type: "item"
+					item: "ecologics:seashell_block"
+				}
+				{
+					id: "468C8F3337985EA1"
+					type: "item"
+					item: "ecologics:seashell_tiles"
+				}
+				{
+					id: "56C89883A4608114"
+					type: "item"
+					item: "ecologics:seashell_tile_stairs"
+				}
+				{
+					id: "00F891421A44F990"
+					type: "item"
+					item: "ecologics:seashell_tile_slab"
+				}
+				{
+					id: "657EC1B9E57CB64E"
+					type: "item"
+					item: "ecologics:seashell_tile_wall"
+				}
+				{
+					id: "6F9F48F98AE794BE"
+					type: "item"
+					item: "ecologics:seashell"
+				}
+			]
+			rewards: [{
+				id: "06E15C0F4FF0AD83"
+				type: "item"
+				item: "ecologics:seashell"
+				count: 32
+			}]
+		}
+		{
+			title: "A buried disk"
+			x: -3.5d
+			y: 4.0d
+			dependencies: ["28C899B3721DB41E"]
+			id: "45DA69CDDE7EA056"
+			tasks: [{
+				id: "0CEB03EA2C3970DD"
+				type: "item"
+				item: "ecologics:music_disc_coconut"
+			}]
+		}
+		{
+			title: "A walnut tree"
+			x: -2.5d
+			y: 2.5d
+			dependencies: ["59DF10C059F5639B"]
+			id: "7728A2A0D8DCA5F5"
+			tasks: [{
+				id: "3AA88BF563D62D38"
+				type: "item"
+				item: "ecologics:walnut_log"
+			}]
+		}
+		{
+			title: "Walnut collection"
+			icon: "ecologics:walnut_wood"
+			x: -1.5d
+			y: 3.0d
+			dependencies: ["7728A2A0D8DCA5F5"]
+			id: "7ACA2B0CA859B500"
+			tasks: [
+				{
+					id: "1814FFA3BFA03974"
+					type: "item"
+					item: "ecologics:walnut_log"
+				}
+				{
+					id: "55A883E38D467C73"
+					type: "item"
+					item: "ecologics:stripped_walnut_log"
+				}
+				{
+					id: "70CCD8BD3D51D752"
+					type: "item"
+					item: "ecologics:walnut_wood"
+				}
+				{
+					id: "5C9D534CBCE93B65"
+					type: "item"
+					item: "ecologics:stripped_walnut_wood"
+				}
+				{
+					id: "3A4105E03B8CF886"
+					type: "item"
+					item: "ecologics:walnut_leaves"
+				}
+				{
+					id: "322539E28FC62885"
+					type: "item"
+					item: "ecologics:walnut_planks"
+				}
+				{
+					id: "3082E92F721535EE"
+					type: "item"
+					item: "ecologics:walnut_planks"
+				}
+				{
+					id: "3388C40573F27651"
+					type: "item"
+					item: "ecologics:walnut_slab"
+				}
+				{
+					id: "531DEA45AD478171"
+					type: "item"
+					item: "ecologics:walnut_stairs"
+				}
+				{
+					id: "61D328EE4828AD65"
+					type: "item"
+					item: "ecologics:walnut_fence"
+				}
+				{
+					id: "3240F7AD09023A53"
+					type: "item"
+					item: "ecologics:walnut_fence_gate"
+				}
+				{
+					id: "1B8E71D51DD52C21"
+					type: "item"
+					item: "ecologics:walnut_door"
+				}
+				{
+					id: "7B53ACC7B4ABA37C"
+					type: "item"
+					item: "ecologics:walnut_trapdoor"
+				}
+				{
+					id: "69E1576362802517"
+					type: "item"
+					item: "ecologics:walnut_button"
+				}
+				{
+					id: "08EBB9BDA3425DF8"
+					type: "item"
+					item: "ecologics:walnut_pressure_plate"
+				}
+				{
+					id: "2985C9E79E447094"
+					type: "item"
+					item: "ecologics:walnut_sign"
+				}
+				{
+					id: "79C438CD439BF75A"
+					type: "item"
+					item: "ecologics:walnut_boat"
+				}
+			]
+			rewards: [{
+				id: "6B8D8A14C8518C08"
+				type: "item"
+				item: "ecologics:walnut_log"
+				count: 16
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.5d
+			dependencies: ["7728A2A0D8DCA5F5"]
+			id: "66DE17D8A6723DB4"
+			tasks: [{
+				id: "58D5B65DB73EC34F"
+				type: "item"
+				item: "ecologics:walnut_sapling"
+			}]
+		}
+		{
+			title: "A walnut"
+			x: 1.5d
+			y: 2.5d
+			dependencies: ["66DE17D8A6723DB4"]
+			id: "52ED87298ADB7481"
+			tasks: [{
+				id: "492CA30626A647BE"
+				type: "item"
+				item: "ecologics:walnut"
+			}]
+		}
+		{
+			title: "A squirrel"
+			x: -1.5d
+			y: 1.5d
+			dependencies: ["7728A2A0D8DCA5F5"]
+			id: "48E73B40C0F7439D"
+			tasks: [{
+				id: "1743C8CDDE722859"
+				type: "observation"
+				icon: "ecologics:squirrel_spawn_egg"
+				timer: 0L
+				observe_type: 5
+				to_observe: "ecologics:squirrel"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.5d
+			dependencies: ["23F44C0F21362C31"]
+			id: "48A28F1D95DA205D"
+			tasks: [{
+				id: "39F3BA530B2F298A"
+				type: "structure"
+				title: "A ruins"
+				icon: "minecraft:sandstone"
+				structure: "ecologics:desert_ruin"
+			}]
+		}
+		{
+			title: "A pot"
+			x: -1.0d
+			y: 0.5d
+			dependencies: ["48A28F1D95DA205D"]
+			id: "727FEE612D1A32CC"
+			tasks: [{
+				id: "6571CB410B252F61"
+				type: "item"
+				item: "ecologics:pot"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -0.5d
+			dependencies: ["23F44C0F21362C31"]
+			id: "6FB2025B25576BDB"
+			tasks: [{
+				id: "46C9117C452D97BC"
+				type: "observation"
+				title: "A camel"
+				icon: "ecologics:camel_spawn_egg"
+				timer: 0L
+				observe_type: 5
+				to_observe: "ecologics:camel"
+			}]
+		}
+		{
+			title: "Desert food"
+			x: -1.0d
+			y: -0.5d
+			dependencies: ["6FB2025B25576BDB"]
+			id: "5F07750258115F7B"
+			tasks: [{
+				id: "405A9A2D575E5271"
+				type: "item"
+				item: "ecologics:prickly_pear"
+			}]
+		}
+		{
+			title: "A cooked prickly"
+			x: 0.5d
+			y: -0.5d
+			dependencies: ["5F07750258115F7B"]
+			id: "5E29AA4EA2F95A23"
+			tasks: [{
+				id: "478CE59BEA68C2C5"
+				type: "item"
+				item: "ecologics:cooked_prickly_pear"
+			}]
+		}
+		{
+			title: "A variable thickness"
+			x: -3.0d
+			y: -2.0d
+			dependencies: ["4208AC0F131E5ECE"]
+			id: "1C709E472BFB24C2"
+			tasks: [{
+				id: "0043A00B15657203"
+				type: "item"
+				item: "ecologics:surface_moss"
+			}]
+		}
+		{
+			title: "A new log for a vanilla tree"
+			x: -3.0d
+			y: -3.0d
+			dependencies: ["4208AC0F131E5ECE"]
+			id: "7B5FAA2B99394BC2"
+			tasks: [{
+				id: "094BA3661F1C36E4"
+				type: "item"
+				item: "ecologics:azalea_log"
+			}]
+		}
+		{
+			title: "A flowering log"
+			x: -2.0d
+			y: -3.0d
+			dependencies: ["7B5FAA2B99394BC2"]
+			id: "6568ACF1FB969DA9"
+			tasks: [{
+				id: "670F5EBAF8B679ED"
+				type: "item"
+				item: "ecologics:flowering_azalea_log"
+			}]
+		}
+		{
+			title: "Complete collection"
+			icon: "ecologics:azalea_wood"
+			x: 0.0d
+			y: -3.0d
+			dependencies: ["6568ACF1FB969DA9"]
+			id: "6421EFB796DB2C1D"
+			tasks: [
+				{
+					id: "3FE5C0E8C826DC16"
+					type: "item"
+					item: "ecologics:azalea_log"
+				}
+				{
+					id: "01C3AB12C0706E6D"
+					type: "item"
+					item: "ecologics:flowering_azalea_log"
+				}
+				{
+					id: "56A765688FEDDC54"
+					type: "item"
+					item: "ecologics:stripped_azalea_log"
+				}
+				{
+					id: "726F896B03725119"
+					type: "item"
+					item: "ecologics:azalea_wood"
+				}
+				{
+					id: "55E5549846A06C89"
+					type: "item"
+					item: "ecologics:flowering_azalea_wood"
+				}
+				{
+					id: "364EC43D81A93997"
+					type: "item"
+					item: "ecologics:stripped_azalea_wood"
+				}
+				{
+					id: "1B34CE6C5C55101F"
+					type: "item"
+					item: "ecologics:azalea_planks"
+				}
+				{
+					id: "108B0627097A4835"
+					type: "item"
+					item: "ecologics:flowering_azalea_planks"
+				}
+				{
+					id: "3459884B4C376494"
+					type: "item"
+					item: "ecologics:azalea_slab"
+				}
+				{
+					id: "3E5EFA05C9E02FF6"
+					type: "item"
+					item: "ecologics:flowering_azalea_slab"
+				}
+				{
+					id: "47B5B804A2541678"
+					type: "item"
+					item: "ecologics:azalea_stairs"
+				}
+				{
+					id: "4465909A7B6ED20A"
+					type: "item"
+					item: "ecologics:flowering_azalea_stairs"
+				}
+				{
+					id: "017557D0FCA3F22D"
+					type: "item"
+					item: "ecologics:azalea_fence"
+				}
+				{
+					id: "3E40778AFFB8836A"
+					type: "item"
+					item: "ecologics:flowering_azalea_fence"
+				}
+				{
+					id: "2E56320FFE3BFA7C"
+					type: "item"
+					item: "ecologics:azalea_fence_gate"
+				}
+				{
+					id: "14CE696002EEA74A"
+					type: "item"
+					item: "ecologics:flowering_azalea_fence_gate"
+				}
+				{
+					id: "293053070190DFCF"
+					type: "item"
+					item: "ecologics:azalea_door"
+				}
+				{
+					id: "7151B381518DC58A"
+					type: "item"
+					item: "ecologics:flowering_azalea_door"
+				}
+				{
+					id: "426F87791AE056DE"
+					type: "item"
+					item: "ecologics:azalea_trapdoor"
+				}
+				{
+					id: "581D19D9ACA31295"
+					type: "item"
+					item: "ecologics:flowering_azalea_trapdoor"
+				}
+				{
+					id: "15F19CB3B187D2DB"
+					type: "item"
+					item: "ecologics:azalea_button"
+				}
+				{
+					id: "7E903308E334D59B"
+					type: "item"
+					item: "ecologics:azalea_pressure_plate"
+				}
+				{
+					id: "237E1A0D07E060DD"
+					type: "item"
+					item: "ecologics:azalea_sign"
+				}
+				{
+					id: "3B1CE2F78DF680FE"
+					type: "item"
+					item: "ecologics:flowering_azalea_sign"
+				}
+				{
+					id: "13A42E2C3DF8B614"
+					type: "item"
+					item: "ecologics:azalea_boat"
+				}
+				{
+					id: "3A6313A4B5AE6EF7"
+					type: "item"
+					item: "ecologics:flowering_azalea_boat"
+				}
+			]
+			rewards: [{
+				id: "4F051CD0A8242604"
+				type: "item"
+				item: "ecologics:azalea_log"
+				count: 64
+			}]
+		}
+		{
+			title: "A flower for a tree"
+			x: -1.0d
+			y: -2.0d
+			dependencies: ["6568ACF1FB969DA9"]
+			id: "397BA1C480000238"
+			tasks: [{
+				id: "3A19435BDD035A24"
+				type: "item"
+				item: "ecologics:azalea_flower"
+			}]
+		}
+		{
+			title: "Is not a stone bricks, is a snow brick"
+			x: -3.0d
+			y: -5.0d
+			dependencies: ["011A865D921C3332"]
+			id: "62E1FA5093C368FC"
+			tasks: [{
+				id: "26055A17F30B6739"
+				type: "item"
+				item: "ecologics:snow_bricks"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -6.0d
+			dependencies: ["011A865D921C3332"]
+			id: "6BFB2D21573C7D39"
+			tasks: [{
+				id: "00F101B4D8C4A391"
+				type: "item"
+				item: "ecologics:ice_bricks"
+			}]
+		}
+		{
+			icon: "ecologics:penguin_spawn_egg"
+			x: -3.0d
+			y: -4.0d
+			dependencies: ["011A865D921C3332"]
+			id: "00F39BB0572FD22A"
+			tasks: [{
+				id: "5ABF3C3EE9D0D4BE"
+				type: "observation"
+				title: "A penguin"
+				icon: "ecologics:penguin_spawn_egg"
+				timer: 0L
+				observe_type: 5
+				to_observe: "ecologics:penguin"
+			}]
+		}
+		{
+			title: "A penguin feather"
+			icon: "ecologics:penguin_feather"
+			x: -1.5d
+			y: -4.0d
+			dependencies: ["00F39BB0572FD22A"]
+			id: "40767D1281C050D4"
+			tasks: [{
+				id: "4C019D26B93C1BC5"
+				type: "item"
+				item: "ecologics:penguin_feather"
+			}]
+		}
+		{
+			title: "A complete snow block collection"
+			icon: "ecologics:snow_bricks"
+			x: -1.5d
+			y: -5.0d
+			dependencies: ["62E1FA5093C368FC"]
+			id: "02601EBF8B31CFD0"
+			tasks: [
+				{
+					id: "56B11D6298E1EA7D"
+					type: "item"
+					item: "ecologics:snow_bricks"
+				}
+				{
+					id: "4E87F119B4E9F403"
+					type: "item"
+					item: "ecologics:snow_brick_stairs"
+				}
+				{
+					id: "485944CB689425EF"
+					type: "item"
+					item: "ecologics:snow_brick_slab"
+				}
+				{
+					id: "361FE5F06E7ECF46"
+					type: "item"
+					item: "ecologics:snow_brick_wall"
+				}
+				{
+					id: "7740595E9A603CFD"
+					type: "item"
+					item: "minecraft:snow_block"
+				}
+			]
+			rewards: [{
+				id: "2F1635FA16087FE9"
+				type: "item"
+				item: "minecraft:snow_block"
+				count: 32
+			}]
+		}
+		{
+			title: "A complete ice block collection"
+			icon: "ecologics:ice_bricks"
+			x: -1.5d
+			y: -6.0d
+			dependencies: ["6BFB2D21573C7D39"]
+			id: "5D6C7597EB6460A9"
+			tasks: [
+				{
+					id: "3F66C1B67FCB0E87"
+					type: "item"
+					item: "ecologics:ice_bricks"
+				}
+				{
+					id: "37194CE9B202C194"
+					type: "item"
+					item: "ecologics:ice_brick_stairs"
+				}
+				{
+					id: "558BB901698E4266"
+					type: "item"
+					item: "ecologics:ice_brick_slab"
+				}
+				{
+					id: "4752BA2C3210D1A7"
+					type: "item"
+					item: "ecologics:ice_brick_wall"
+				}
+				{
+					id: "243D1A72EDCA78A5"
+					type: "item"
+					item: "minecraft:ice"
+				}
+				{
+					id: "6A753F954E7F5D94"
+					type: "item"
+					item: "minecraft:packed_ice"
+				}
+				{
+					id: "730646617F2648E7"
+					type: "item"
+					item: "minecraft:blue_ice"
+				}
+			]
+			rewards: [
+				{
+					id: "31F1B6401301642F"
+					type: "item"
+					item: "minecraft:ice"
+					count: 4
+				}
+				{
+					id: "3A6105E7AF81B75E"
+					type: "item"
+					item: "ecologics:ice_bricks"
+					count: 16
+				}
+			]
+		}
+		{
+			title: "The ground is ice..."
+			icon: "minecraft:ice"
+			x: 0.0d
+			y: -4.0d
+			dependencies: ["40767D1281C050D4"]
+			id: "21AAB2D45C1AE5E3"
+			tasks: [{
+				id: "130FC94A0A0146FF"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "ecologics:sliding"
+					}
+				}
+			}]
+		}
+	]
+	quest_links: [ ]
+}

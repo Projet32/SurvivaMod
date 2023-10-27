@@ -1,0 +1,416 @@
+{
+	id: "35150F401EFD8E42"
+	group: "3CB8E0B13491FFB2"
+	order_index: 0
+	filename: "rotten_creatures"
+	title: "Rotten Creatures"
+	icon: "rottencreatures:frozen_rotten_flesh"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Kill a zombie"
+			icon: "minecraft:rotten_flesh"
+			x: -1.5d
+			y: 0.0d
+			shape: "rsquare"
+			size: 1.75d
+			id: "21D3C9CCF6CD0CCF"
+			tasks: [{
+				id: "2A2B371D71272361"
+				type: "kill"
+				icon: "minecraft:rotten_flesh"
+				entity: "minecraft:zombie"
+				value: 1L
+			}]
+		}
+		{
+			title: "A inflammed zombie"
+			x: 1.0d
+			y: 0.0d
+			dependencies: ["21D3C9CCF6CD0CCF"]
+			id: "13BDD5BDC61D5704"
+			tasks: [{
+				id: "5057349AB4BDB476"
+				type: "observation"
+				icon: "rottencreatures:burned_spawn_egg"
+				timer: 0L
+				observe_type: 5
+				to_observe: "rottencreatures:burned"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -0.5d
+			dependencies: ["1F75F15015CB79F3"]
+			id: "71DF8ADED952084F"
+			tasks: [{
+				id: "2CF4E31291F30DB5"
+				type: "item"
+				item: "rottencreatures:magma_rotten_flesh"
+			}]
+		}
+		{
+			title: "It was dangerous"
+			icon: "rottencreatures:burned_spawn_egg"
+			x: 3.0d
+			y: 0.0d
+			dependencies: ["13BDD5BDC61D5704"]
+			id: "1F75F15015CB79F3"
+			tasks: [{
+				id: "4C2FB7410BC338AA"
+				type: "kill"
+				title: "Kill a burned"
+				entity: "rottencreatures:burned"
+				value: 1L
+			}]
+		}
+		{
+			title: "A burned hunted"
+			x: 5.0d
+			y: 0.5d
+			dependencies: ["1F75F15015CB79F3"]
+			id: "2D562194012FD9E9"
+			tasks: [{
+				id: "3F2069E8E02D7BC7"
+				type: "kill"
+				title: "Kill 150 burned"
+				icon: "rottencreatures:burned_spawn_egg"
+				entity: "rottencreatures:burned"
+				value: 150L
+			}]
+			rewards: [
+				{
+					id: "7EC71AEED502CCC3"
+					type: "item"
+					item: "rottencreatures:magma_rotten_flesh"
+					count: 64
+				}
+				{
+					id: "23EEAAABFFFE23DE"
+					type: "item"
+					item: "minecraft:magma_cream"
+					count: 16
+				}
+				{
+					id: "6C4D5C3214B0C681"
+					type: "item"
+					item: "minecraft:magma_block"
+					count: 32
+				}
+				{
+					id: "0014FBBCC222FA78"
+					type: "xp"
+					xp: 1000
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 1.5d
+			dependencies: ["21D3C9CCF6CD0CCF"]
+			id: "735A49AE6DF13823"
+			tasks: [{
+				id: "7D2EDDB0C8A92324"
+				type: "observation"
+				title: "A glacial zombie"
+				icon: "rottencreatures:frostbitten_spawn_egg"
+				timer: 0L
+				observe_type: 5
+				to_observe: "rottencreatures:frostbitten"
+			}]
+		}
+		{
+			title: "It sent shivers down my spine"
+			x: 1.5d
+			y: 2.5d
+			dependencies: ["735A49AE6DF13823"]
+			id: "75A0576B01CE540C"
+			tasks: [{
+				id: "06DA07D5AFDD6778"
+				type: "kill"
+				title: "Kill a frostbitten"
+				icon: "rottencreatures:frostbitten_spawn_egg"
+				entity: "rottencreatures:frostbitten"
+				value: 1L
+			}]
+		}
+		{
+			title: "A killer of frostbitten"
+			x: 3.0d
+			y: 1.5d
+			dependencies: ["75A0576B01CE540C"]
+			id: "35E48D912E2755DD"
+			tasks: [{
+				id: "23A75EB6730E1CBD"
+				type: "kill"
+				title: "Kill 150 frostbitten"
+				icon: "rottencreatures:frostbitten_spawn_egg"
+				entity: "rottencreatures:frostbitten"
+				value: 150L
+			}]
+			rewards: [
+				{
+					id: "305649F5386730E7"
+					type: "item"
+					item: "rottencreatures:frozen_rotten_flesh"
+					count: 64
+				}
+				{
+					id: "243ACB4D0D0E2530"
+					type: "item"
+					item: "minecraft:snowball"
+					count: 16
+				}
+				{
+					id: "3E3A5B38FFA2379C"
+					type: "xp"
+					xp: 1000
+				}
+			]
+		}
+		{
+			title: "A fresh rotten flesh"
+			x: 3.0d
+			y: 3.0d
+			dependencies: ["75A0576B01CE540C"]
+			id: "2B1DA4BF932DA7D2"
+			tasks: [{
+				id: "4586DE6AFB24976C"
+				type: "item"
+				item: "rottencreatures:frozen_rotten_flesh"
+			}]
+		}
+		{
+			title: "A rotten flesh alchemy"
+			x: 4.5d
+			y: 2.5d
+			dependencies: ["2B1DA4BF932DA7D2"]
+			id: "4C8F269A908EC380"
+			tasks: [{
+				id: "628C47ADCA6FC348"
+				type: "item"
+				item: "minecraft:rotten_flesh"
+				only_from_crafting: true
+			}]
+		}
+		{
+			x: 6.0d
+			y: 4.0d
+			dependencies: ["64CE9CED5883E08B"]
+			id: "1D87FF096B96FF4A"
+			tasks: [{
+				id: "5EAE76D1787C7CB7"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "rottencreatures:freeze"
+					}
+				}
+			}]
+		}
+		{
+			title: "A water zombie"
+			x: 0.0d
+			y: -2.0d
+			dependencies: ["21D3C9CCF6CD0CCF"]
+			id: "66633710E36B28C4"
+			tasks: [{
+				id: "2458D4F15D368186"
+				type: "observation"
+				title: "A zombie that comes from a swamp"
+				icon: "rottencreatures:swampy_spawn_egg"
+				timer: 0L
+				observe_type: 5
+				to_observe: "rottencreatures:swampy"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -2.5d
+			dependencies: ["66633710E36B28C4"]
+			id: "1E31EF14D43CF77E"
+			tasks: [{
+				id: "327BCFAEBD8CAEAC"
+				type: "kill"
+				title: "Kill a swampy"
+				icon: "rottencreatures:swampy_spawn_egg"
+				entity: "rottencreatures:swampy"
+				value: 1L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.5d
+			dependencies: ["1E31EF14D43CF77E"]
+			id: "1B1FF083BF96EBCE"
+			tasks: [{
+				id: "2C812A44F3D80983"
+				type: "kill"
+				title: "Slaughter of swampy"
+				icon: "rottencreatures:swampy_spawn_egg"
+				entity: "minecraft:zombie"
+				value: 150L
+			}]
+			rewards: [
+				{
+					id: "49DD5E7F45EE55EF"
+					type: "item"
+					item: "minecraft:brown_dye"
+					count: 128
+				}
+				{
+					id: "31FE52B707C5E779"
+					type: "xp"
+					xp: 1000
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -1.0d
+			dependencies: ["21D3C9CCF6CD0CCF"]
+			id: "0AD56D877DA11282"
+			tasks: [{
+				id: "6FE5589EE3EFE10C"
+				type: "observation"
+				title: "A underage"
+				icon: "rottencreatures:undead_miner_spawn_egg"
+				timer: 0L
+				observe_type: 5
+				to_observe: "rottencreatures:undead_miner"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 3.5d
+			dependencies: ["2B1DA4BF932DA7D2"]
+			id: "64CE9CED5883E08B"
+			tasks: [{
+				id: "7F0A03E57A2EA122"
+				type: "item"
+				item: "rottencreatures:corrupted_wart"
+			}]
+		}
+		{
+			icon: "minecraft:raw_gold"
+			x: 3.0d
+			y: -1.0d
+			dependencies: ["0AD56D877DA11282"]
+			id: "532B219B9CCD3893"
+			tasks: [
+				{
+					id: "71F3FAF4DA6C1843"
+					type: "checkmark"
+					title: "A ore loot farm"
+				}
+				{
+					id: "74B5EEB1998086FE"
+					type: "item"
+					item: "minecraft:raw_gold"
+					count: 64L
+				}
+				{
+					id: "7A263F176FE5DFF1"
+					type: "item"
+					item: "minecraft:raw_iron"
+					count: 64L
+				}
+				{
+					id: "5D17DA6440D486FE"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 64L
+				}
+				{
+					id: "358C7F8D9D723C45"
+					type: "item"
+					item: "minecraft:coal"
+					count: 64L
+				}
+				{
+					id: "255BAB5BD3216538"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 64L
+				}
+			]
+			rewards: [{
+				id: "7E47858E2C336B6D"
+				type: "xp"
+				xp: 150
+			}]
+		}
+		{
+			x: 4.5d
+			y: -1.5d
+			dependencies: ["532B219B9CCD3893"]
+			id: "3FC7B67E00EF2DCD"
+			tasks: [{
+				id: "5C870D439A26F7F5"
+				type: "kill"
+				title: "A killer of under miner"
+				icon: "rottencreatures:undead_miner_spawn_egg"
+				entity: "alexsmobs:underminer"
+				value: 150L
+			}]
+			rewards: [{
+				id: "666EC85EE6B5B864"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			title: "A frost hunter"
+			x: -1.5d
+			y: 2.5d
+			dependencies: ["21D3C9CCF6CD0CCF"]
+			id: "2FAC5095B5C95F19"
+			tasks: [{
+				id: "038012A3668E4FAC"
+				type: "observation"
+				title: "A frost zombie"
+				icon: "rottencreatures:glacial_hunter_spawn_egg"
+				timer: 0L
+				observe_type: 5
+				to_observe: "rottencreatures:glacial_hunter"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 3.5d
+			dependencies: ["2FAC5095B5C95F19"]
+			id: "42CB0370976CBFC7"
+			tasks: [{
+				id: "429056A0B1F5A162"
+				type: "kill"
+				title: "Kill the glacial hunter"
+				icon: "rottencreatures:glacial_hunter_spawn_egg"
+				entity: "rottencreatures:glacial_hunter"
+				value: 1L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 4.5d
+			dependencies: ["42CB0370976CBFC7"]
+			id: "361E48576D13C7E3"
+			tasks: [{
+				id: "6E83F5831FA156AD"
+				type: "kill"
+				title: "Kill a lot zombie glacial"
+				icon: "rottencreatures:glacial_hunter_spawn_egg"
+				entity: "rottencreatures:glacial_hunter"
+				value: 150L
+			}]
+			rewards: [{
+				id: "569634783CAB1A28"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+	]
+	quest_links: [ ]
+}
